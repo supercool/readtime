@@ -6,7 +6,7 @@ This plugin will return an average time required to read an entry.
 ---
 * Download and move `readtime` folder into `craft/plugins` folder.
 
-* Install and Enable `Read Time` under **Admin > Settings > Plugins **
+* Install and Enable `Read Time` under **Admin > Settings > Plugins**
 
 ### Usage
 ---
