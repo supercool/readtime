@@ -1,0 +1,40 @@
+{
+    "name": "supercool/readme",
+    "description": "Craft CMS plugin to calculate read time for an entry",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "readtime"
+    ],
+    "support": {
+        "docs": "https://github.com/supercool/readtime",
+        "issues": "https://github.com/supercool/readtime/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Supercool",
+            "homepage": "http://supercooldesign.co.uk"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "~3.0.0-beta.8"
+    },
+    "autoload": {
+        "psr-4": {
+          "supercool\\readtime\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Read Time",
+        "handle": "readtime",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/supercool/readtime/master/CHANGELOG.md"
+    }
+}
